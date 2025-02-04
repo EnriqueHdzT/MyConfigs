@@ -20,7 +20,6 @@ vim.g.maplocalleader = "\\"
 
 vim.opt.rtp:prepend(lazypath)
 vim.opt.number = true
-vim.opt.relativenumber = true
 vim.opt.mouse = ""
 vim.opt.expandtab = true
 vim.opt.tabstop = 2

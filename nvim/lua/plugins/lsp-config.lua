@@ -11,8 +11,9 @@ return {
       require("mason-lspconfig").setup({
         ensure_installed = {
           "lua_ls",
-          "clangd",
           "bashls",
+          "clangd",
+          "eslint",
         },
       })
     end,
@@ -22,8 +23,9 @@ return {
     config = function()
       local lspconfig = require("lspconfig")
       lspconfig.lua_ls.setup({})
-      lspconfig.clangd.setup({})
       lspconfig.bashls.setup({})
+      lspconfig.clangd.setup({})
+      lspconfig.eslint.setup({})
     end,
   },
 }
