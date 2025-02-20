@@ -26,6 +26,9 @@ return {
       lspconfig.bashls.setup({})
       lspconfig.clangd.setup({})
       lspconfig.eslint.setup({})
+      lspconfig.gopls.setup({})
+      lspconfig.dockerls.setup({})
+      lspconfig.yamlls.setup({})
     end,
   },
 }
